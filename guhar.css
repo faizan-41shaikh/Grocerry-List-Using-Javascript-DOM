@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(jail.jpg);
+    background-size: cover;
+}
+#todos{
+    margin: auto;
+}
+.todo{
+    margin-left: 620px;
+    margin-top: 163px;
+
+}
+.heading{
+    margin-left: 620px;
+    margin-top: 6px;
+    padding-top: 3px;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(180, 168, 168)
+
+}
+div input{
+    width: 261px;
+    border-radius: 17px;
+    border: 1px solid white;
+    height:22px;
+}
+div i{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(182, 174, 174);
+    cursor: pointer;
+}
+.button{
+    margin-left: 632px;
+    margin-top: 7px;
+    
+}
+div li{
+width: 13%;
+background-color: white;
+color: black;
+height: 25px;
+line-height: 28px;
+padding: 0px 49px;
+margin-left: 584px;
+margin-right: 90px;
+border-radius: 17px;
+    
+    
+}
+.line_through{
+    opacity: 0.5;
+    transition: 0.3s;
+    
+}
+
+button i{
+    pointer-events: none;
+}
+.fall{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
